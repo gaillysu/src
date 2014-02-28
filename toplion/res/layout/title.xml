@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_fangan_zhence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_fangan_fuwu"
+        android:layout_below="@+id/iv_fangan_fuwu"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_fangan_zcwenzi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_fangan_zhence"
+        android:layout_below="@+id/tv_fangan_zhence"
+        android:src="@drawable/testefuwu" />
+
+    <ImageView
+        android:id="@+id/iv_fangan_fuwu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/zhengczhichi" />
+
+    <ImageView
+        android:id="@+id/iv_fangan_fuwutu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_fangan_zcwenzi"
+        android:layout_below="@+id/iv_fangan_zcwenzi"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/fangan" />
+
+</RelativeLayout>

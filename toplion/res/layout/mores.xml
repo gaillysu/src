@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+      <ImageView
+        android:id="@+id/our_iv_yanjiuyuans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/yanjiuyuan" />
+
+            <ImageView
+                android:id="@+id/our_iv_gongsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/our_iv_yanjiuyuans"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/comppany_logo" />
+
+            <ImageView
+                android:id="@+id/our_iv_erweima"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/our_iv_gongsi"
+                android:layout_marginTop="121dp"
+                android:src="@drawable/erweima" />
+
+            <ImageView
+                android:id="@+id/our_iv_lianxi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/our_iv_yanjiuyuans"
+                android:layout_below="@+id/our_iv_gongsi"
+                android:layout_marginTop="54dp"
+                android:src="@drawable/c_lianxiwm" />
+
+            <TextView
+                android:id="@+id/ours_tv_wangzhis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ours_tv_wangzhi"
+                android:layout_toLeftOf="@+id/our_iv_erweima"
+                android:autoLink="web"
+                android:text="@string/company_wangzhis" />
+
+            <TextView
+                android:id="@+id/ours_tv_wangzhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/our_iv_yanjiuyuans"
+                android:layout_below="@+id/our_iv_lianxi"
+                android:layout_marginTop="14dp"
+                android:text="@string/company_wangzhi" />
+
+            <ImageView
+                android:id="@+id/our_iv_chengjiusss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/our_iv_jiankangsss"
+                android:src="@drawable/gongsiyuanjing_two" />
+
+            <TextView
+                android:id="@+id/txZhongwenss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/our_iv_chengjiusss"
+                android:layout_marginRight="23dp"
+                android:text="@string/zhongwen"
+                android:textSize="14sp" />
+           
+
+            <ImageView
+                android:id="@+id/our_iv_jiankangsss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ours_tv_wangzhi"
+                android:layout_below="@+id/ours_tv_wangzhis"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/gongsiyuanjing_one"
+                 />
+
+            <TextView
+                android:id="@+id/tv_yinwenziti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txZhongwenss"
+                android:layout_alignParentRight="true"
+                android:text="@string/yinwen"
+                android:textSize="12sp"
+                android:layout_marginRight="5dp"
+                 />
+
+</RelativeLayout>

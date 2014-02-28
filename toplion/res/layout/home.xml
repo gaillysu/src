@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/h_yan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/honm_our" />
+
+    <TextView
+        android:id="@+id/h_wenzi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/h_yan"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/content_of_company" />
+
+    <ImageView
+        android:id="@+id/h_youshi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h_wenzi"
+        android:src="@drawable/youshi" />
+  <ImageView
+        android:id="@+id/h_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h_youshi"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/gongsiyuanjing_one" />
+    <ImageView
+        android:id="@+id/h_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/h_one"
+        android:src="@drawable/gongsiyuanjing_two" />
+
+  
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:background="@drawable/w03" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  >
+    
+    <TextView 
+        android:id = "@+id/info"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center" 
+        android:text="在这里\n有移动互联网资深讲师\n全部案例教学,一对一贴心服务\n编程也可以很有趣"           
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:textSize="22sp"
+        android:textColor="#fff" 
+        />
+</RelativeLayout>

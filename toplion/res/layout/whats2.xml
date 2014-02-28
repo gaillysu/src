@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:background="@drawable/w02" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  >
+    
+    <TextView 
+        android:id = "@+id/info"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center" 
+        
+        android:text="在这里\n最专业最实用的IT技能培训\n最前沿的创业项目分析" 
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:textSize="22sp"
+        android:textColor="#fff" 
+        />
+</RelativeLayout>

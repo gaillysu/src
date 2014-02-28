@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar" >
+    </include>
+
+    <LinearLayout
+        android:id="@+id/layoutBody"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bgwelcom"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/ivYanjiuyuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/yanjiuyuan" />
+
+            <TextView
+                android:id="@+id/tvYinwen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/ivYanjiuyuan"
+                android:text="@string/yinwen"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/txZhongwen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tvYinwen"
+                android:layout_alignRight="@+id/tvYinwen"
+                android:layout_marginRight="18dp"
+                android:text="@string/zhongwen"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ivYanjiuyuan"
+                android:layout_below="@+id/ivYanjiuyuan"
+                android:layout_marginLeft="76dp"
+                android:layout_marginTop="22dp"
+                android:src="@drawable/toplion" />
+
+            <TextView
+                android:id="@+id/ivYanglao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/txZhongwen"
+                android:layout_alignRight="@+id/tvYinwen"
+                android:layout_marginBottom="40dp"
+                android:text="@string/yuanjins"
+                android:textColor="@color/blue"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!-- ==========================底部菜单=============================== -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01" >
+
+        <include layout="@layout/bottom_bar" >
+        </include>
+    </LinearLayout>
+
+</LinearLayout>

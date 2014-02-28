@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+    <ImageView
+        android:id="@+id/about_iv_jiayou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/c_jiagou" />
+
+    <ImageView
+        android:id="@+id/ivJiagou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/about_iv_yuanjing"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/about_iv_jiayou"
+        android:src="@drawable/jiagou" />
+
+    <ImageView
+        android:id="@+id/about_iv_yuanjing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about_iv_jiayou"
+        android:layout_below="@+id/about_iv_jiayou"
+        android:layout_marginTop="206dp"
+        android:src="@drawable/c_yuanjin" />
+
+    <ImageView
+        android:id="@+id/about_iv_yewu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about_iv_yuanjing"
+        android:layout_below="@+id/about_tv_yuanjins"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/c_yewu" />
+
+    <TextView
+        android:id="@+id/about_tv_yewu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about_tv_yuanjins"
+        android:layout_below="@+id/about_iv_yewu"
+        android:text="@string/yewus"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/about_tv_yuanjins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about_iv_yuanjing"
+        android:layout_below="@+id/about_iv_yuanjing"
+        android:layout_marginLeft="41dp"
+        android:text="@string/yuanjins"
+        android:textSize="16sp" />
+    
+    
+      <ImageView
+        android:id="@+id/about_iv_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about_iv_yuanjing"
+        android:layout_below="@+id/about_tv_yewu"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/c_lianxiwm" />
+      <!-- com.polites.android.ZoomTextView -->
+       <TextView
+        android:id="@+id/about_tv_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about_iv_yuanjing"
+        android:layout_below="@+id/about_iv_us"
+        android:layout_marginLeft="41dp"
+        android:text="@string/about_us" 
+        android:textSize="22sp"/>
+       
+       <ImageView
+        android:id="@+id/about_iv_us_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about_iv_yuanjing"
+        android:layout_below="@+id/about_tv_us"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/mycard" />
+
+</RelativeLayout>

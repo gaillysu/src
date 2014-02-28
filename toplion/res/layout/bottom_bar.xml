@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:background="@drawable/bar_bottom"
+	android:id="@+id/btn"
+	android:weightSum="1.0" >
+	<RadioButton android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.25"
+		android:button="@drawable/bottom_a_selector"
+		android:id="@+id/btnA"
+	></RadioButton>
+	<RadioButton android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.25"
+		android:button="@drawable/bottom_b_selector"
+		android:id="@+id/btnB"
+	></RadioButton>
+	<RadioButton android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.2"
+		android:button="@drawable/bottom_c_selector"
+		android:id="@+id/btnC"
+		android:visibility="gone"
+	></RadioButton>
+	<RadioButton android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.25"
+		android:button="@drawable/bottom_d_selector"
+		android:id="@+id/btnD"
+	></RadioButton>
+	<RadioButton android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.25"
+		android:button="@drawable/bottom_e_selector"
+		android:id="@+id/btnE"
+		
+	></RadioButton>
+</RadioGroup>

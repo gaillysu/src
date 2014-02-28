@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">深圳顶狮信息技术有限公司</string>
+    <string name="menu_settings">设置</string>
+    <string name="title_activity_main">深圳顶狮信息技术有限公司</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_shop_cart">ShopCartActivity</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_more">MoreActivity</string>
+    <string name="home">顶狮信息</string>
+    <string name="category">产品与解决方案</string>
+    <string name="account">关于我们</string>
+    <string name="more">更多信息</string>
+    <string name="shopCart">终端产品</string>
+    <string name="zhongwen">深圳顶狮信息技术有限公司</string>
+    <string name="yinwen">Shenzhen toplion Technology Limited</string>
+    <string name="content_of_company">\t\t顶狮信息技术有限公司，是一家教育科技和教育培训为主干业务的有限责任公司，以教育为依托，开展技能培训、科技推广、创业指导的信息技术工作，其教育宗旨是架起职业教育通向就业和创业的桥梁。顶狮科技主要承担新技术推广及实践工作，帮助学校建立新技术热点实验室及搭建企业开发环境平台。如移动终端开发实验室、物联网实验室等，也同时承担外包项目开发，使培训学员在真实项目中锻炼成长。顶狮培训以信息技术、网络营销为主要培训方向，涵盖嵌入式软件开发、移动互联网应用设计、游戏设计、电子商务等培训科目，以Android/iOS/Windows Mobile等热门的移动平台为基础，培养学员良好的设计思想及编程习惯，并结合当今移动互联网三大平台（百度、阿里、腾讯开放平台），指导学员在上述平台上开发获得利益分成的应用程序，实现其创业梦想。
+    \n\t\t顶狮信息以技术人员为主，其成员多来自摩托罗拉、甲骨文、武汉大学深圳研究院、北大青鸟等知名校企，具有深厚的技术从业背景。目前共有专业工程师3名，讲师7名,开设Android/iOS/WM、J2EE开发、网站设计与优化、网络营销等方面的课程，担任首届“广东省高职院校移动互联网骨干教师培训班”主讲讲师。顶狮信息秉承“兼容并蓄、开放多赢”的组织理念，紧跟移动互联网的发展趋势，瞄准技术及市场热点，不断推出新的合作、教学内容及适合企业需求的案例库。采用企业环境下的案例教学模式，不仅使学员的获得知识技能，而且提高学员的项目组织及管理能力、团队合作精神、文档标准化能力等。学员毕业后可独立从事设计、测试等研发工作。</string>
+    <string name="yuanjins">顶狮，工程师及创业者的摇篮。</string>
+    <string name="yewus">Android、iOS、WM嵌入式系统培训；\n移动应用程序设计与开发；\n移动互联网课程设计与建设；\n物联网实验室建设；\n职业规划与创业指导；</string>
+  
+    <string name="more_news">联系我们：</string>
+	<string name="company_wangzhi">公司网址：</string>
+	<string name="company_wangzhis"><a href="http://www.toplion.net.cn">http://www.miihc.com</a>\n<a href="http://www.whunmi.com">http://www.whunmi.com</a></string>
+
+	<string name="about_us">苏老师 Mobile:<a href= "tel:13714720103">13714720103</a> QQ:120672668\n深圳顶狮信息技术有限公司</string>
+	
+	<string name="banji1">基础班</string>
+	<string name="banji2">标准班</string>
+	<string name="banji3">提高班</string>
+	<string name="banji4">创业班</string>
+	<string name="kcjj">【课程简介】</string>
+	<string name="pxdx">【培训对象】</string>
+	<string name="pxnr">【培训内容】</string>
+	<string name="pxmb">【培训目标】</string>
+	
+	<string name="kcjj1">\t\t计算机程序设计、C语言及嵌入式开发、数据库、Java、Android基础知识、案例项目开发实训，毕业后可从事Android开发、Java开发、应用UI设计、游戏开发等工作。共计680学时（基础理论480学时，上机实践160学时，毕业设计40学时），需全日制上课需4个月。</string>
+    <string name="pxdx1">\t\t面向在校学生及社会人员, 无专业要求，零基础者。</string>
+	<string name="pxnr1">
+1：计算机发展史、组成及原理\n
+2：计算机程序设计规范\n
+3：C语言及嵌入式开发\n
+4：数据库原理及应用\n
+5：Java语言程序设计基础\n
+6：Java面向对象的程序设计\n
+7：Android的系统组成及开发环境\n
+8：Android的应用组成及开发基础\n
+9：多媒体播放器开发\n
+10：二维码的生成与扫描\n
+11：天气预报商业软件开发\n
+12：百度地图接口开发\n
+13：开发自己的通讯录应用\n
+14：桌面小插件widget开发\n
+15：多线程下载与上传图片\n
+16：打飞机游戏\n
+17：蓝牙小车应用开发\n
+18：微信界面模拟\n
+</string>
+	<string name="pxmb1">\t\t通过系统学习计算机编程知识，以掌握Android开发技能为基础、实现就业为目标。</string>
+
+	
+	
+	
+	
+	<string name="kcjj2">\t\tJava、数据库、Android基础知识、案例项目开发实训，毕业后可从事Android开发、Java开发、应用UI设计、游戏开发等工作。共计320学时，脱产班需2个月，周末班上课需4-个月。</string>
+    <string name="pxdx2">\t\t面向在校学生及社会人员，有一定的计算机开发基础，如学习过C、Java语言。</string>
+	<string name="pxnr2">
+第1章 Java基本语句、语法、运算符、集合 \n
+第2章 Java开发工具及运行环境	\n
+第3章 Java线程的实现与同步	\n
+第4章 Java and C 调用	\n
+第5章 Android Java运行环境Dalvik虚拟机	\n
+第6章 Android 应用编译及封装	\n
+第7章 Android SDK及第三方SDK	\n
+第8章 Android 系统组成	\n
+第9章 Android 开发环境搭建与第一个程序	\n
+第10章 Android 四大组件及相关类详解	\n
+第11章 Android线程及消息类	\n
+第12章 Android用户界面布局与开发	\n
+第13章 持久数据存储	\n
+第14章 多媒体编程与后台服务	\n
+第15章 网络编程与HTTP协议上传、下载文件、访问网络服务接口 \n
+第16章 访问系统服务、GPS、相机	\n
+第17章 Android 安全与权限、应用程序签名与发布
+</string>
+	<string name="pxmb2">\t\t以掌握Android开发技能为基础、实现就业为目标。</string>
+
+	<string name="kcjj3">\t\t有一定的Java及Android开发基础，以提高开发技能为目标，采用系统原生及商业案例教学为主，分析Android系统原生模块及当前主流的应用程序模型。毕业后可从事系统工程师、框架设计师、中间层工程师、项目经理等工作。共计160个学时。脱产上课1个月，业余上课2个月。</string>
+    <string name="pxdx3">\t\t1、	计算机或软件专业，有一定的Java开发基础；\n
+2、	Java后台开发人员转入智能终端开发者；\n
+3、	Android应用开发者深入系统底层开发者。
+</string>
+
+	<string name="pxnr3">
+1：Android  RIL层及原生SMS/MMS、电话模块流程分析\n
+2：Wifi及蓝牙编程\n
+3：动画设计与开发\n
+4：Audio 音频模块编程、ADPCM音频压缩与解压\n
+5：多线程文件上传与下载\n
+6：自定义view控件实现listview刷新与分页功能\n
+7：图片下载缓存技术\n
+8：个性化二维码的生成与扫描\n
+9：磨房客户端的应用框架分析与开发
+</string>
+	<string name="pxmb3">\t\t掌握系统Native层开发、系统移植及常见的应用开发模型。</string>	
+
+	
+	
+		<string name="kcjj4">\t\t有成功开发App应用的经验，想接入BAT（百度、阿里、腾讯）三大开放平台及其它平台，实现创业梦想的学员。共计48个学时。需脱产上课6~8天。</string>
+    <string name="pxdx4">\t\t1、计算机或软件专业，有一定的Java开发基础；\n
+2、Java后台开发人员转入智能终端开发者；\n
+3、Android应用开发者深入系统底层开发者。
+</string>
+
+	<string name="pxnr4">
+ 1： 百度地图API开发拼车客户端 \n
+ 2： 淘宝淘宝Open API 开发个性化淘宝客应用，如蘑菇街、美丽说等。\n
+ 3： 手机桌面开发（微信公共账号、淘宝店铺在桌面建立快捷方式，占领移动互联网入口）\n
+ 4:  快的打车软件设计框架及运营分析
+</string>
+	<string name="pxmb4">\t\t掌握目前开放的第三方平台开发接口如百度、阿里、腾讯、JPush推服务、微信后台接口开发等。可独立进行应用程序在上述平台接口的商业开发。</string>	
+	
+	<string name="case1">蓝牙小车</string>
+	<string name="case2">天气预报</string>
+	<string name="case3">百度地图</string>
+	<string name="case4">微信界面模拟</string>
+	
+	<string name="case5">下载网络图片</string>
+	<string name="case6">二维码生成</string>
+	<string name="case7">音乐播放器</string>
+	<string name="case8">动画显示</string>
+	
+	<string name="case9">黄金交易实时图</string>
+	<string name="case10">积木游戏</string>
+
+	
+	
+</resources>

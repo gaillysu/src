@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.polites.android.ZoomTextView
+        android:id="@+id/iv_banjiname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/banji1"
+        android:textColor="@color/blue"
+        android:textSize="22sp" />
+    
+       <com.polites.android.ZoomTextView
+           android:id="@+id/tv_kcjj"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/iv_banjiname"
+           android:layout_below="@+id/iv_banjiname"
+           android:layout_marginLeft="5dp"
+           android:layout_marginTop="10dp"
+           android:text="@string/kcjj"
+           android:textColor="@color/blue"
+           android:textSize="18sp" />
+       
+        <com.polites.android.ZoomTextView
+        android:id="@+id/tv_kcjj_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_banjiname"
+        android:layout_below="@+id/tv_kcjj"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/kcjj1" />
+
+         <com.polites.android.ZoomTextView
+             android:id="@+id/tv_pxdx"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/iv_banjiname"
+             android:layout_below="@+id/tv_kcjj_content"
+             android:layout_marginLeft="5dp"
+             android:layout_marginTop="10dp"
+             android:text="@string/pxdx"
+             android:textColor="@color/blue"
+             android:textSize="18sp" />
+       
+        <com.polites.android.ZoomTextView
+        android:id="@+id/tv_pxdx_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_banjiname"
+        android:layout_below="@+id/tv_pxdx"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/pxdx1" />
+        
+         <com.polites.android.ZoomTextView
+             android:id="@+id/tv_pxnr"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/iv_banjiname"
+             android:layout_below="@+id/tv_pxdx_content"
+             android:layout_marginLeft="5dp"
+             android:layout_marginTop="10dp"
+             android:text="@string/pxnr"
+             android:textColor="@color/blue"
+             android:textSize="18sp" />
+       
+        <com.polites.android.ZoomTextView
+        android:id="@+id/tv_pxnr_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_banjiname"
+        android:layout_below="@+id/tv_pxnr"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/pxnr1" />
+        
+         <com.polites.android.ZoomTextView
+             android:id="@+id/tv_pxmb"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/iv_banjiname"
+             android:layout_below="@+id/tv_pxnr_content"
+             android:layout_marginLeft="5dp"
+             android:layout_marginTop="10dp"
+             android:text="@string/pxmb"
+             android:textColor="@color/blue"
+             android:textSize="18sp" />
+         
+           <com.polites.android.ZoomTextView
+        android:id="@+id/tv_pxmb_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/iv_banjiname"
+        android:layout_below="@+id/tv_pxmb"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/pxmb1" />
+         
+
+
+</RelativeLayout>
